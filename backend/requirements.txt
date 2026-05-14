@@ -9,6 +9,7 @@ fastapi==0.136.1
 h11==0.16.0
 idna==3.13
 iniconfig==2.3.0
+mutagen
 packaging==26.2
 pluggy==1.6.0
 pydantic==2.13.4
