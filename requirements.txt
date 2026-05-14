@@ -1,3 +1,7 @@
-pytest
+fastapi
+uvicorn
+mutagen
+python-multipart
 requests
 python-dotenv
+pytest
