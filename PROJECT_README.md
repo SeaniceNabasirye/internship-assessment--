@@ -1,4 +1,4 @@
-SunVoice AI App
+## SunVoice AI App
 
 
 SunVoice is a GenAI web application that processes text or audio through an intelligent pipeline powered by Sunbird AI. Users can input English text or upload audio files, which are then transcribed, summarized, translated into Ugandan local languages (Luganda, Runyankole, Ateso, Lugbara, Acholi), and converted back to speech, creating a complete multilingual content processing experience.
