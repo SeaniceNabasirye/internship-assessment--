@@ -1,5 +1,3 @@
-<img width="1313" height="886" alt="image" src="https://github.com/user-attachments/assets/2661dd07-8ebd-490a-b84c-424bb8d1892e" /># SunVoice - Sunbird AI Internship Assessment
-
 SunVoice is a GenAI web application that processes text or audio through an intelligent pipeline powered by Sunbird AI. Users can input English text or upload audio files, which are then transcribed, summarized, translated into Ugandan local languages (Luganda, Runyankole, Ateso, Lugbara, Acholi), and converted back to speech, creating a complete multilingual content processing experience.
 
 ## Architecture Overview
