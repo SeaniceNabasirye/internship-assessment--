@@ -126,7 +126,9 @@ Frontend runs on `http://localhost:3000`
 
 
 ![Pipeline Results]
-![Uploading image.png…]()
+
+<img width="1539" height="819" alt="image" src="https://github.com/user-attachments/assets/9dd76b39-3e15-49cc-b757-8f4c96e74131" />
+
 
 
 ## Deployed Links
