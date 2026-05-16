@@ -42,7 +42,7 @@ async def process_text(data: TextRequest):
         audio_url = None
         try:
             await loop.run_in_executor(None, generate_speech, translated)
-            audio_url = "http://127.0.0.1:8000/audio"
+            audio_url = "https://internship-assessment-05at.onrender.com/audio"
         except Exception as tts_error:
             print(f"TTS failed (skipping): {tts_error}")
 
@@ -108,6 +108,8 @@ async def process_audio(
         finally:
             if temp_path and os.path.exists(temp_path):
                 os.unlink(temp_path)
+
+        loop = asyncio.get_event_loop()        
                 
         # Try transcription
         try:
@@ -125,7 +127,7 @@ async def process_audio(
         audio_url = None
         try:
             await loop.run_in_executor(None, generate_speech, translated)
-            audio_url = "http://127.0.0.1:8000/audio"
+            audio_url = "https://internship-assessment-05at.onrender.com/audio"
         except Exception as tts_error:
             print(f"TTS failed (skipping): {tts_error}")
 
