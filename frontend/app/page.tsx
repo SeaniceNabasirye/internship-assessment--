@@ -268,7 +268,7 @@ export default function Home() {
     try {
       setLoading(true);
       clearResults();
-      const response = await axios.post("http://127.0.0.1:8000/process-text", { text, language });
+      const response = await axios.post("https://internship-assessment-05at.onrender.com/process-text", { text, language });
       setOriginal(response.data.original);
       setSummary(response.data.summary);
       setTranslated(response.data.translated);
@@ -289,7 +289,7 @@ export default function Home() {
       const formData = new FormData();
       formData.append("file", audioFile);
       formData.append("language", language);
-      const response = await axios.post("http://127.0.0.1:8000/process-audio", formData, {
+      const response = await axios.post("https://internship-assessment-05at.onrender.com/process-audio", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setTranscript(response.data.transcript);
